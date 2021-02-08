@@ -23,15 +23,18 @@ class ProductProduct(models.Model):
         if "default_code" not in vals or vals["default_code"] == "/":
             categ_id = vals.get("categ_id")
             template_id = vals.get("product_tmpl_id")
-            category = self.env["product.category"]
+            categ = sequence = False
             if categ_id:
                 # Created as a product.product
-                category = category.browse(categ_id)
+                categ = self.env["product.category"].browse(categ_id)
             elif template_id:
                 # Created from a product.template
                 template = self.env["product.template"].browse(template_id)
-                category = template.categ_id
-            sequence = self.env["ir.sequence"].get_category_sequence_id(category)
+                categ = template.categ_id
+            if categ:
+                sequence = categ.sequence_id
+            if not sequence:
+                sequence = self.env.ref("product_sequence.seq_product_auto")
             vals["default_code"] = sequence.next_by_id()
         return super().create(vals)
 
@@ -45,7 +48,9 @@ class ProductProduct(models.Model):
             for product in self:
                 category_id = vals.get("categ_id", product.categ_id.id)
                 category = product_category_obj.browse(category_id)
-                sequence = self.env["ir.sequence"].get_category_sequence_id(category)
+                sequence = category.exists() and category.sequence_id
+                if not sequence:
+                    sequence = self.env.ref("product_sequence.seq_product_auto")
                 ref = sequence.next_by_id()
                 vals["default_code"] = ref
                 if len(product.product_tmpl_id.product_variant_ids) == 1:
