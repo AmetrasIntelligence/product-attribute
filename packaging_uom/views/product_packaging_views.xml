@@ -15,6 +15,15 @@
                     'form_view_ref': 'product.product_packaging_form_view2'}
                 </attribute>
             </field>
+            <xpath expr="//field[@name='packaging_ids']" position="inside">
+                <tree>
+                    <field name="name" />
+                    <field name="uom_id" />
+                    <field name="qty" />
+                    <field name="product_uom_id" string="Product Unit of Measure"/>
+                    <field name="company_id" />
+                </tree>
+            </xpath>
         </field>
     </record>
     <record id="product_packaging_view_form_inherit_packaging_uom" model="ir.ui.view">
