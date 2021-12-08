@@ -45,6 +45,7 @@ class ProductPackaging(models.Model):
             [("is_default", "=", True)], limit=1
         )
 
+    name = fields.Char(required=False, default="Default")
     packaging_type_id = fields.Many2one(
         "product.packaging.type",
         required=True,
@@ -156,8 +157,12 @@ class ProductPackaging(models.Model):
     def name_get(self):
         result = []
         for record in self:
-            if record.product_id and record.packaging_type_id:
-                result.append((record.id, record.packaging_type_id.display_name))
-            else:
-                result.append((record.id, record.name))
+            result.append((record.id, "{} ({})".format(record.name, record.qty)))
         return result
+
+    @api.model_create_multi
+    def create(self, vals_list):
+        res = super(ProductPackaging, self).create(vals_list)
+        for record in res:
+            record._onchange_name()
+        return res
