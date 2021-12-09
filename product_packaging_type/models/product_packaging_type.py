@@ -154,12 +154,6 @@ class ProductPackaging(models.Model):
         if self.packaging_type_id:
             self.name = self.packaging_type_id.name
 
-    def name_get(self):
-        result = []
-        for record in self:
-            result.append((record.id, "{} ({})".format(record.name, record.qty)))
-        return result
-
     @api.model_create_multi
     def create(self, vals_list):
         res = super(ProductPackaging, self).create(vals_list)
