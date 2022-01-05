@@ -17,8 +17,10 @@ class ProductPricelist(models.Model):
         for product, _qty, _partner in products_qty_partner:
             rule = rule_obj.browse(result[product.id][1])
             if rule.compute_price == "formula" and rule.base == "multi_price":
+                ctx = self.env.context.copy()
+                ctx.update({"_qty": _qty, "_partner": _partner})
                 result[product.id] = (
-                    product._get_multiprice_pricelist_price(rule),
+                    product.with_context(ctx)._get_multiprice_pricelist_price(rule),
                     rule.id,
                 )
         return result
