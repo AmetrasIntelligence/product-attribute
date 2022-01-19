@@ -8,10 +8,13 @@ class ProductMultiPrice(models.Model):
     _description = "Product Multiple Prices"
 
     name = fields.Many2one(
-        comodel_name="product.multi.price.name", required=True, translate=True,
+        comodel_name="product.multi.price.name",
+        required=True,
+        translate=True,
+        index=True,
     )
     product_id = fields.Many2one(
-        comodel_name="product.product", required=True, ondelete="cascade",
+        comodel_name="product.product", required=True, ondelete="cascade", index=True
     )
     price = fields.Float(digits="Product Price",)
     company_id = fields.Many2one(
@@ -19,6 +22,7 @@ class ProductMultiPrice(models.Model):
         related="name.company_id",
         store=True,
         readonly=True,
+        index=True,
     )
 
     _sql_constraints = [
@@ -44,6 +48,7 @@ class ProductMultiPriceName(models.Model):
         comodel_name="res.company",
         required=True,
         default=lambda self: self._get_company(),
+        index=True,
     )
 
     _sql_constraints = [

@@ -10,6 +10,7 @@ class ProductProduct(models.Model):
         comodel_name="product.multi.price",
         inverse_name="product_id",
         string="Other Prices",
+        index=True,
     )
 
     def _convert_to_price_uom(self, price):
