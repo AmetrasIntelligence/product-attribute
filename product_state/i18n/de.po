@@ -14,12 +14,12 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_state/i18n/product_state.pot\n"
 "X-Crowdin-File-ID: 4296\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:53\n"
+"PO-Revision-Date: 2022-08-06 23:58\n"
 
 #. module: product_state
 #: model_terms:ir.ui.view,arch_db:product_state.view_product_state_form
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #. module: product_state
 #: model:ir.model.fields,field_description:product_state.field_product_state__create_uid
