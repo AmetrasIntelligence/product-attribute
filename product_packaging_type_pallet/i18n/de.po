@@ -1,0 +1,49 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ametras-xsolutions\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_packaging_type_pallet/i18n/product_packaging_type_pallet.pot\n"
+"X-Crowdin-File-ID: 4112\n"
+"Language: de_DE\n"
+"PO-Revision-Date: 2022-08-06 21:52\n"
+
+#. module: product_packaging_type_pallet
+#: model:ir.model.fields,field_description:product_packaging_type_pallet.field_product_packaging__type_is_pallet
+#: model:ir.model.fields,field_description:product_packaging_type_pallet.field_product_packaging_type__is_pallet
+msgid "Is Pallet"
+msgstr ""
+
+#. module: product_packaging_type_pallet
+#: model:ir.model.fields,field_description:product_packaging_type_pallet.field_product_packaging__layers
+msgid "Layers"
+msgstr ""
+
+#. module: product_packaging_type_pallet
+#: model:ir.model.fields,field_description:product_packaging_type_pallet.field_product_packaging__packs_per_layer
+msgid "Packs Per Layer"
+msgstr ""
+
+#. module: product_packaging_type_pallet
+#: model:ir.model,name:product_packaging_type_pallet.model_product_packaging
+msgid "Product Packaging"
+msgstr "Produktverpackung"
+
+#. module: product_packaging_type_pallet
+#: model:ir.model,name:product_packaging_type_pallet.model_product_packaging_type
+msgid "Type management for product.packaging"
+msgstr "Typenverwaltung für product.packaging"
+
+#. module: product_packaging_type_pallet
+#: model:ir.model.fields,help:product_packaging_type_pallet.field_product_packaging__packs_per_layer
+msgid "number of boxes/bags on a layer"
+msgstr ""
+
