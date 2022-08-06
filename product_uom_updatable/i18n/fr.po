@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ametras-xsolutions\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_uom_updatable/i18n/product_uom_updatable.pot\n"
+"X-Crowdin-File-ID: 4400\n"
+"Language: fr_FR\n"
+"PO-Revision-Date: 2022-08-06 21:52\n"
+
+#. module: product_uom_updatable
+#: model:ir.model,name:product_uom_updatable.model_product_template
+msgid "Product Template"
+msgstr ""
+
+#. module: product_uom_updatable
+#: code:addons/product_uom_updatable/models/product_template.py:0
+#, python-format
+msgid "You can not change the unit of measure of a product to a new unit that doesn't have the same category and factor"
+msgstr ""
+
