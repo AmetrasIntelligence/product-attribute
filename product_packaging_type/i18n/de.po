@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_packaging_type/i18n/product_packaging_type.pot\n"
 "X-Crowdin-File-ID: 4110\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:52\n"
+"PO-Revision-Date: 2022-08-06 23:58\n"
 
 #. module: product_packaging_type
 #: model:ir.model.fields,field_description:product_packaging_type.field_product_packaging_type__active
@@ -29,7 +29,7 @@ msgstr ""
 #. module: product_packaging_type
 #: model:ir.model.fields,field_description:product_packaging_type.field_product_packaging_type__code
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #. module: product_packaging_type
 #: model:ir.model.fields,field_description:product_packaging_type.field_product_packaging_type__create_uid
@@ -64,7 +64,7 @@ msgstr "ID"
 #. module: product_packaging_type
 #: model:ir.model.fields,field_description:product_packaging_type.field_product_packaging_type__is_default
 msgid "Is Default"
-msgstr ""
+msgstr "Ist Standard"
 
 #. module: product_packaging_type
 #: code:addons/product_packaging_type/models/product_packaging_type.py:0
