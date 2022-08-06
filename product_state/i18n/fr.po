@@ -1,29 +1,25 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# * product_state
-#
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
-# guillaume bauer <guillaume.bauer@syentys.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-29 02:55+0000\n"
-"PO-Revision-Date: 2020-07-22 14:19+0000\n"
-"Last-Translator: c2cdidier <didier.donze@camptocamp.com>\n"
-"Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
-"Language: fr\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.10\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_state/i18n/product_state.pot\n"
+"X-Crowdin-File-ID: 4296\n"
+"Language: fr_FR\n"
+"PO-Revision-Date: 2022-08-06 21:53\n"
 
 #. module: product_state
 #: model_terms:ir.ui.view,arch_db:product_state.view_product_state_form
 msgid "Code"
-msgstr "Code"
+msgstr ""
 
 #. module: product_state
 #: model:ir.model.fields,field_description:product_state.field_product_state__create_uid
@@ -39,12 +35,12 @@ msgstr "Créé le"
 #: model:ir.model.fields,field_description:product_state.field_product_state__description
 #: model_terms:ir.ui.view,arch_db:product_state.view_product_state_form
 msgid "Description"
-msgstr "Description"
+msgstr ""
 
 #. module: product_state
 #: model:ir.model.fields,field_description:product_state.field_product_state__display_name
 msgid "Display Name"
-msgstr "Nom affiché"
+msgstr "Nom d'affichage"
 
 #. module: product_state
 #: model:product.state,name:product_state.product_state_end
@@ -54,7 +50,7 @@ msgstr "Fin de vie"
 #. module: product_state
 #: model:ir.model.fields,field_description:product_state.field_product_state__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: product_state
 #: model:product.state,name:product_state.product_state_draft
@@ -69,12 +65,12 @@ msgstr "Dernière modification le"
 #. module: product_state
 #: model:ir.model.fields,field_description:product_state.field_product_state__write_uid
 msgid "Last Updated by"
-msgstr "Dernière modification par"
+msgstr "Dernière mise à jour par"
 
 #. module: product_state
 #: model:ir.model.fields,field_description:product_state.field_product_state__write_date
 msgid "Last Updated on"
-msgstr "Dernière modification le"
+msgstr "Dernière mise à jour le"
 
 #. module: product_state
 #: model:ir.model.fields,field_description:product_state.field_product_state__name
@@ -84,7 +80,7 @@ msgstr "Nom"
 #. module: product_state
 #: model:product.state,name:product_state.product_state_sellable
 msgid "Normal"
-msgstr "Normal"
+msgstr ""
 
 #. module: product_state
 #: model:ir.model.fields,field_description:product_state.field_product_state__products_count
@@ -122,13 +118,13 @@ msgstr "Statut de l'article"
 #. module: product_state
 #: model:ir.model,name:product_state.model_product_template
 msgid "Product Template"
-msgstr "Modèle de l'article"
+msgstr ""
 
 #. module: product_state
 #: model_terms:ir.ui.view,arch_db:product_state.view_product_state_form
 #: model_terms:ir.ui.view,arch_db:product_state.view_product_state_kanban
 msgid "Products"
-msgstr "Articles"
+msgstr ""
 
 #. module: product_state
 #: model:ir.model.fields,help:product_state.field_product_product__product_state_id
@@ -147,7 +143,7 @@ msgstr "Séquence"
 #: model:ir.model.fields,field_description:product_state.field_product_template__product_state_id
 #: model_terms:ir.ui.view,arch_db:product_state.view_product_template_search_state
 msgid "State"
-msgstr "Statut"
+msgstr ""
 
 #. module: product_state
 #: model:ir.model.fields,field_description:product_state.field_product_state__code
@@ -157,7 +153,7 @@ msgstr "Code du statut"
 #. module: product_state
 #: model_terms:ir.ui.view,arch_db:product_state.view_product_state_form
 msgid "State Name"
-msgstr "Nom du statut"
+msgstr ""
 
 #. module: product_state
 #: model:ir.actions.act_window,name:product_state.action_open_state_products
@@ -174,3 +170,4 @@ msgstr "Utilisé pour trier les statuts"
 #: model_terms:ir.ui.view,arch_db:product_state.view_product_state_tree
 msgid "product.state"
 msgstr "Statut de l'article"
+
