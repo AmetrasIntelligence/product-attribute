@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_weight/i18n/product_weight.pot\n"
 "X-Crowdin-File-ID: 4404\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:52\n"
+"PO-Revision-Date: 2022-08-06 23:59\n"
 
 #. module: product_weight
 #: model:ir.model.fields,field_description:product_weight.field_product_weight_update__bom_id
@@ -86,7 +86,7 @@ msgstr "Produkt"
 #. module: product_weight
 #: model:ir.model.fields,field_description:product_weight.field_product_weight_update__product_tmpl_id
 msgid "Template"
-msgstr ""
+msgstr "Vorlage"
 
 #. module: product_weight
 #: model:ir.actions.act_window,name:product_weight.action_view_product_weight_update
