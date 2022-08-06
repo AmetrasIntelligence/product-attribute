@@ -1,25 +1,25 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# 	* product_secondary_unit
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-07-22 11:19+0000\n"
-"Last-Translator: c2cdidier <didier.donze@camptocamp.com>\n"
-"Language-Team: none\n"
-"Language: fr\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.10\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_secondary_unit/i18n/product_secondary_unit.pot\n"
+"X-Crowdin-File-ID: 4222\n"
+"Language: fr_FR\n"
+"PO-Revision-Date: 2022-08-06 21:53\n"
 
 #. module: product_secondary_unit
 #: model:ir.model.fields,field_description:product_secondary_unit.field_product_secondary_unit__code
 msgid "Code"
-msgstr "Code"
+msgstr ""
 
 #. module: product_secondary_unit
 #: model:ir.model.fields,field_description:product_secondary_unit.field_product_secondary_unit__create_uid
@@ -42,19 +42,19 @@ msgstr "Unité de mesure secondaire par défaut."
 #: model:ir.model.fields,field_description:product_secondary_unit.field_product_secondary_unit__display_name
 #: model:ir.model.fields,field_description:product_secondary_unit.field_product_secondary_unit_mixin__display_name
 msgid "Display Name"
-msgstr "Nom affiché"
+msgstr "Nom d'affichage"
 
 #. module: product_secondary_unit
 #: model:ir.model.fields,field_description:product_secondary_unit.field_product_secondary_unit__id
 #: model:ir.model.fields,field_description:product_secondary_unit.field_product_secondary_unit_mixin__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: product_secondary_unit
 #: model:ir.model.fields,field_description:product_secondary_unit.field_product_secondary_unit____last_update
 #: model:ir.model.fields,field_description:product_secondary_unit.field_product_secondary_unit_mixin____last_update
 msgid "Last Modified on"
-msgstr "Dernière Modification le"
+msgstr "Dernière modification le"
 
 #. module: product_secondary_unit
 #: model:ir.model.fields,field_description:product_secondary_unit.field_product_secondary_unit__write_uid
@@ -74,7 +74,7 @@ msgstr "Nom"
 #. module: product_secondary_unit
 #: model:ir.model,name:product_secondary_unit.model_product_secondary_unit
 msgid "Product Secondary Unit"
-msgstr "Unité produit secondaire"
+msgstr ""
 
 #. module: product_secondary_unit
 #: model:ir.model,name:product_secondary_unit.model_product_secondary_unit_mixin
@@ -85,7 +85,7 @@ msgstr ""
 #: model:ir.model,name:product_secondary_unit.model_product_template
 #: model:ir.model.fields,field_description:product_secondary_unit.field_product_secondary_unit__product_tmpl_id
 msgid "Product Template"
-msgstr "Modèle de produit"
+msgstr ""
 
 #. module: product_secondary_unit
 #: model:ir.model.fields,field_description:product_secondary_unit.field_product_secondary_unit_mixin__secondary_uom_id
@@ -114,8 +114,3 @@ msgstr "Unité de mesure secondaire"
 msgid "secondary unit of measure"
 msgstr "Unité de mesure secondaire"
 
-#~ msgid "secondary Unit"
-#~ msgstr "Unité secondaire"
-
-#~ msgid "Default unit sale"
-#~ msgstr "Unité de vente par défaut"
