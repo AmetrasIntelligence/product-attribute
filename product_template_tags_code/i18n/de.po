@@ -14,12 +14,12 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_template_tags_code/i18n/product_template_tags_code.pot\n"
 "X-Crowdin-File-ID: 4390\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:52\n"
+"PO-Revision-Date: 2022-08-06 23:59\n"
 
 #. module: product_template_tags_code
 #: model:ir.model.fields,field_description:product_template_tags_code.field_product_template_tag__code
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #. module: product_template_tags_code
 #: model:ir.model,name:product_template_tags_code.model_product_template_tag
