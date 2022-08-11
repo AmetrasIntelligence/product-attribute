@@ -14,14 +14,14 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_packaging_type_required/i18n/product_packaging_type_required.pot\n"
 "X-Crowdin-File-ID: 4114\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:52\n"
+"PO-Revision-Date: 2022-08-11 14:03\n"
 
 #. module: product_packaging_type_required
 #: model:ir.actions.server,name:product_packaging_type_required.ir_cron_packaging_required_ir_actions_server
 #: model:ir.cron,cron_name:product_packaging_type_required.ir_cron_packaging_required
 #: model:ir.cron,name:product_packaging_type_required.ir_cron_packaging_required
 msgid "Packaging Required"
-msgstr ""
+msgstr "Verpackung erforderlich"
 
 #. module: product_packaging_type_required
 #: model:ir.model.fields,field_description:product_packaging_type_required.field_product_packaging_type__required
