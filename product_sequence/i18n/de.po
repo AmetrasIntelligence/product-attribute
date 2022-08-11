@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_sequence/i18n/product_sequence.pot\n"
 "X-Crowdin-File-ID: 4262\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:53\n"
+"PO-Revision-Date: 2022-08-11 11:40\n"
 
 #. module: product_sequence
 #: code:addons/product_sequence/models/product_product.py:0
@@ -35,7 +35,7 @@ msgstr "Konfigurationseinstellung"
 #. module: product_sequence
 #: model:ir.model.fields,field_description:product_sequence.field_product_product__default_code
 msgid "Internal Reference"
-msgstr ""
+msgstr "Interne Referenz"
 
 #. module: product_sequence
 #: model:ir.model.fields,field_description:product_sequence.field_product_category__code_prefix
