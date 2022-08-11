@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_dimension_volumetric_weight/i18n/product_dimension_volumetric_weight.pot\n"
 "X-Crowdin-File-ID: 4088\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-11 14:59\n"
+"PO-Revision-Date: 2022-08-11 16:10\n"
 
 #. module: product_dimension_volumetric_weight
 #: model:ir.model,name:product_dimension_volumetric_weight.model_product_product
@@ -29,7 +29,7 @@ msgstr "Produktvorlage"
 #. module: product_dimension_volumetric_weight
 #: model:ir.model,name:product_dimension_volumetric_weight.model_uom_uom
 msgid "Product Unit of Measure"
-msgstr ""
+msgstr "Produkt Mengeneinheit"
 
 #. module: product_dimension_volumetric_weight
 #: model:ir.model.fields,help:product_dimension_volumetric_weight.field_uom_uom__volumetric_weight_ratio
