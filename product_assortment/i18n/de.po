@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_assortment/i18n/product_assortment.pot\n"
 "X-Crowdin-File-ID: 4070\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:52\n"
+"PO-Revision-Date: 2022-08-12 07:54\n"
 
 #. module: product_assortment
 #: model_terms:ir.ui.view,arch_db:product_assortment.view_partner_form
@@ -102,7 +102,7 @@ msgstr ""
 #: code:addons/product_assortment/models/ir_filters.py:0
 #, python-format
 msgid "Products"
-msgstr ""
+msgstr "Produkte"
 
 #. module: product_assortment
 #: model_terms:ir.ui.view,arch_db:product_assortment.product_assortment_view_form
