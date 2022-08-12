@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_template_tags/i18n/product_template_tags.pot\n"
 "X-Crowdin-File-ID: 4386\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:52\n"
+"PO-Revision-Date: 2022-08-12 07:54\n"
 
 #. module: product_template_tags
 #: model:ir.model.fields,field_description:product_template_tags.field_product_template_tag__products_count
@@ -102,5 +102,5 @@ msgstr "Produktvorlage Tag"
 #. module: product_template_tags
 #: model:ir.model.fields,field_description:product_template_tags.field_product_template_tag__product_tmpl_ids
 msgid "Products"
-msgstr ""
+msgstr "Produkte"
 
