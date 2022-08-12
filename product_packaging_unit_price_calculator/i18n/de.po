@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_packaging_unit_price_calculator/i18n/product_packaging_unit_price_calculator.pot\n"
 "X-Crowdin-File-ID: 4116\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:52\n"
+"PO-Revision-Date: 2022-08-12 07:54\n"
 
 #. module: product_packaging_unit_price_calculator
 #: model_terms:ir.ui.view,arch_db:product_packaging_unit_price_calculator.view_product_package_price_form
@@ -138,7 +138,7 @@ msgstr "Produktvorlage"
 #. module: product_packaging_unit_price_calculator
 #: model:ir.model.fields,field_description:product_packaging_unit_price_calculator.field_product_package_price_wizard__product_variant_ids
 msgid "Products"
-msgstr ""
+msgstr "Produkte"
 
 #. module: product_packaging_unit_price_calculator
 #: model_terms:ir.ui.view,arch_db:product_packaging_unit_price_calculator.view_product_package_price_form
@@ -153,7 +153,7 @@ msgstr ""
 #. module: product_packaging_unit_price_calculator
 #: model:ir.model.fields,field_description:product_packaging_unit_price_calculator.field_product_packaging__unit_price
 msgid "Sales Price"
-msgstr ""
+msgstr "Verkaufspreis"
 
 #. module: product_packaging_unit_price_calculator
 #: model_terms:ir.ui.view,arch_db:product_packaging_unit_price_calculator.view_product_package_price_form
