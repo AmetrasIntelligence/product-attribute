@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_dimension/i18n/product_dimension.pot\n"
 "X-Crowdin-File-ID: 4086\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:52\n"
+"PO-Revision-Date: 2022-08-15 14:07\n"
 
 #. module: product_dimension
 #: model:ir.model.fields,field_description:product_dimension.field_product_product__dimensional_uom_id
@@ -32,13 +32,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_dimension.product_normal_form_view
 #: model_terms:ir.ui.view,arch_db:product_dimension.product_template_only_form_view
 msgid "Height"
-msgstr ""
+msgstr "Höhe"
 
 #. module: product_dimension
 #: model_terms:ir.ui.view,arch_db:product_dimension.product_normal_form_view
 #: model_terms:ir.ui.view,arch_db:product_dimension.product_template_only_form_view
 msgid "Length"
-msgstr ""
+msgstr "Länge"
 
 #. module: product_dimension
 #: model:ir.model,name:product_dimension.model_product_product
@@ -60,7 +60,7 @@ msgstr "Einheit für Länge, Höhe, Breite"
 #: model_terms:ir.ui.view,arch_db:product_dimension.product_normal_form_view
 #: model_terms:ir.ui.view,arch_db:product_dimension.product_template_only_form_view
 msgid "Width"
-msgstr ""
+msgstr "Breite"
 
 #. module: product_dimension
 #: model:ir.model.fields,field_description:product_dimension.field_product_product__product_height
