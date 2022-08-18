@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_state/i18n/product_state.pot\n"
 "X-Crowdin-File-ID: 4296\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-12 07:54\n"
+"PO-Revision-Date: 2022-08-18 09:57\n"
 
 #. module: product_state
 #: model_terms:ir.ui.view,arch_db:product_state.view_product_state_form
@@ -153,7 +153,7 @@ msgstr "Zustandscode"
 #. module: product_state
 #: model_terms:ir.ui.view,arch_db:product_state.view_product_state_form
 msgid "State Name"
-msgstr ""
+msgstr "Bundesland"
 
 #. module: product_state
 #: model:ir.actions.act_window,name:product_state.action_open_state_products
