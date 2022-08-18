@@ -14,12 +14,12 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_supplierinfo_revision/i18n/product_supplierinfo_revision.pot\n"
 "X-Crowdin-File-ID: 4382\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-17 14:37\n"
+"PO-Revision-Date: 2022-08-18 09:57\n"
 
 #. module: product_supplierinfo_revision
 #: model_terms:ir.ui.view,arch_db:product_supplierinfo_revision.supplierinfo_duplicate_wizard_view
 msgid "Apply"
-msgstr ""
+msgstr "Anwenden"
 
 #. module: product_supplierinfo_revision
 #: model_terms:ir.ui.view,arch_db:product_supplierinfo_revision.supplierinfo_duplicate_wizard_view
@@ -54,7 +54,7 @@ msgstr "Anzeigename"
 #. module: product_supplierinfo_revision
 #: model:ir.actions.act_window,name:product_supplierinfo_revision.supplierinfo_duplicate_wizard_action
 msgid "Duplicate Supplier Info"
-msgstr ""
+msgstr "Lieferanteninformation duplizieren"
 
 #. module: product_supplierinfo_revision
 #: model:ir.model.fields,field_description:product_supplierinfo_revision.field_product_supplierinfo_duplicate_wizard__id
@@ -80,13 +80,13 @@ msgstr "Zuletzt aktualisiert am"
 #: model:ir.model.fields,field_description:product_supplierinfo_revision.field_product_customerinfo__previous_price
 #: model:ir.model.fields,field_description:product_supplierinfo_revision.field_product_supplierinfo__previous_price
 msgid "Previous Price"
-msgstr ""
+msgstr "Vorheriger Preis"
 
 #. module: product_supplierinfo_revision
 #: model:ir.model.fields,field_description:product_supplierinfo_revision.field_product_customerinfo__previous_info_id
 #: model:ir.model.fields,field_description:product_supplierinfo_revision.field_product_supplierinfo__previous_info_id
 msgid "Previous info"
-msgstr ""
+msgstr "Vorherige Information"
 
 #. module: product_supplierinfo_revision
 #: model:ir.model,name:product_supplierinfo_revision.model_product_supplierinfo_duplicate_wizard
