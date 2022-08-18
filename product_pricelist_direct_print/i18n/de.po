@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_pricelist_direct_print/i18n/product_pricelist_direct_print.pot\n"
 "X-Crowdin-File-ID: 4120\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-12 07:54\n"
+"PO-Revision-Date: 2022-08-18 07:51\n"
 
 #. module: product_pricelist_direct_print
 #: model:mail.template,body_html:product_pricelist_direct_print.email_template_edi_pricelist
@@ -107,7 +107,7 @@ msgstr ""
 #: code:addons/product_pricelist_direct_print/report/product_pricelist_xlsx.py:0
 #, python-format
 msgid "Cost Price"
-msgstr ""
+msgstr "Kostenpreis"
 
 #. module: product_pricelist_direct_print
 #: model:ir.model.fields,field_description:product_pricelist_direct_print.field_product_pricelist_print__create_uid
