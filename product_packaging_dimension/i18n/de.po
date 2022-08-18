@@ -14,17 +14,17 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_packaging_dimension/i18n/product_packaging_dimension.pot\n"
 "X-Crowdin-File-ID: 4108\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:52\n"
+"PO-Revision-Date: 2022-08-18 07:51\n"
 
 #. module: product_packaging_dimension
 #: model:ir.model.fields,field_description:product_packaging_dimension.field_product_packaging__height
 msgid "Height (mm)"
-msgstr ""
+msgstr "Höhe (mm)"
 
 #. module: product_packaging_dimension
 #: model:ir.model.fields,field_description:product_packaging_dimension.field_product_packaging__lngth
 msgid "Length (mm)"
-msgstr ""
+msgstr "Länge (mm)"
 
 #. module: product_packaging_dimension
 #: model:ir.model,name:product_packaging_dimension.model_product_packaging
@@ -34,35 +34,35 @@ msgstr "Produktverpackung"
 #. module: product_packaging_dimension
 #: model:ir.model.fields,field_description:product_packaging_dimension.field_product_packaging__volume
 msgid "Volume (m³)"
-msgstr ""
+msgstr "Volumen (m3)"
 
 #. module: product_packaging_dimension
 #: model:ir.model.fields,field_description:product_packaging_dimension.field_product_packaging__max_weight
 msgid "Weight (kg)"
-msgstr ""
+msgstr "Gewicht (kg)"
 
 #. module: product_packaging_dimension
 #: model:ir.model.fields,field_description:product_packaging_dimension.field_product_packaging__width
 msgid "Width (mm)"
-msgstr ""
+msgstr "Breite (mm)"
 
 #. module: product_packaging_dimension
 #: model:ir.model.fields,help:product_packaging_dimension.field_product_packaging__height
 msgid "height in millimeters"
-msgstr ""
+msgstr "Höhe in Millimetern"
 
 #. module: product_packaging_dimension
 #: model:ir.model.fields,help:product_packaging_dimension.field_product_packaging__lngth
 msgid "length in millimeters"
-msgstr ""
+msgstr "Länge in Millimetern"
 
 #. module: product_packaging_dimension
 #: model:ir.model.fields,help:product_packaging_dimension.field_product_packaging__volume
 msgid "volume in cubic meters"
-msgstr ""
+msgstr "Volumen in Kubikmeter"
 
 #. module: product_packaging_dimension
 #: model:ir.model.fields,help:product_packaging_dimension.field_product_packaging__width
 msgid "width in millimeters"
-msgstr ""
+msgstr "Breite in Millimetern"
 
