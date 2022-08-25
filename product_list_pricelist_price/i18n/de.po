@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_list_pricelist_price/i18n/product_list_pricelist_price.pot\n"
 "X-Crowdin-File-ID: 4092\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:52\n"
+"PO-Revision-Date: 2022-08-25 09:21\n"
 
 #. module: product_list_pricelist_price
 #: model:ir.model.fields,field_description:product_list_pricelist_price.field_product_pricelist__display_pricelist_price
@@ -29,7 +29,7 @@ msgstr ""
 #. module: product_list_pricelist_price
 #: model:ir.model,name:product_list_pricelist_price.model_product_pricelist
 msgid "Pricelist"
-msgstr ""
+msgstr "Preisliste"
 
 #. module: product_list_pricelist_price
 #: model:ir.ui.menu,name:product_list_pricelist_price.menu_product_pricelist_price
