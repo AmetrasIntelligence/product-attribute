@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_multi_price/i18n/product_multi_price.pot\n"
 "X-Crowdin-File-ID: 4102\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-24 05:57\n"
+"PO-Revision-Date: 2022-08-25 09:21\n"
 
 #. module: product_multi_price
 #: model:ir.model.constraint,message:product_multi_price.constraint_product_multi_price_multi_price_uniq
@@ -127,7 +127,7 @@ msgstr ""
 #. module: product_multi_price
 #: model:ir.model,name:product_multi_price.model_product_pricelist
 msgid "Pricelist"
-msgstr ""
+msgstr "Preisliste"
 
 #. module: product_multi_price
 #: model:ir.model,name:product_multi_price.model_product_pricelist_item
