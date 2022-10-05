@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_pricelist_assortment/i18n/product_pricelist_assortment.pot\n"
 "X-Crowdin-File-ID: 4118\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-25 09:21\n"
+"PO-Revision-Date: 2022-10-05 13:10\n"
 
 #. module: product_pricelist_assortment
 #: model_terms:ir.ui.view,arch_db:product_pricelist_assortment.product_pricelist_assortment_item_form_view
@@ -31,7 +31,7 @@ msgstr "Aktiv"
 #. module: product_pricelist_assortment
 #: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__applied_on
 msgid "Apply On"
-msgstr ""
+msgstr "Anwenden auf"
 
 #. module: product_pricelist_assortment
 #: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__assortment_filter_id
