@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: <>\n"
+"Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11,23 +11,23 @@ msgstr ""
 "X-Crowdin-Project: ametras-xsolutions\n"
 "X-Crowdin-Project-ID: 530964\n"
 "X-Crowdin-Language: de\n"
-"X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_pricelist_direct_print_website_sale/i18n/product_pricelist_print_website_sale.pot\n"
-"X-Crowdin-File-ID: 4124\n"
+"X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_pricelist_direct_print_website_sale/i18n/product_pricelist_direct_print_website_sale.pot\n"
+"X-Crowdin-File-ID: 4122\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-10-24 16:15\n"
+"PO-Revision-Date: 2022-11-09 00:10\n"
 
-#. module: product_pricelist_print_website_sale
-#: model:ir.model.fields,field_description:product_pricelist_print_website_sale.field_product_pricelist_print__is_public_categ
+#. module: product_pricelist_direct_print_website_sale
+#: model:ir.model.fields,field_description:product_pricelist_direct_print_website_sale.field_product_pricelist_print__is_public_categ
 msgid "Filter/Group by public categories"
 msgstr ""
 
-#. module: product_pricelist_print_website_sale
-#: model:ir.model,name:product_pricelist_print_website_sale.model_product_pricelist_print
+#. module: product_pricelist_direct_print_website_sale
+#: model:ir.model,name:product_pricelist_direct_print_website_sale.model_product_pricelist_print
 msgid "Product Pricelist Print"
 msgstr ""
 
-#. module: product_pricelist_print_website_sale
-#: model:ir.model.fields,field_description:product_pricelist_print_website_sale.field_product_pricelist_print__public_categ_ids
+#. module: product_pricelist_direct_print_website_sale
+#: model:ir.model.fields,field_description:product_pricelist_direct_print_website_sale.field_product_pricelist_print__public_categ_ids
 msgid "Website Product Category"
 msgstr ""
 
