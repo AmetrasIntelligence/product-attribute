@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_pricelist_supplierinfo/i18n/product_pricelist_supplierinfo.pot\n"
 "X-Crowdin-File-ID: 4128\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-25 09:21\n"
+"PO-Revision-Date: 2022-11-17 07:50\n"
 
 #. module: product_pricelist_supplierinfo
 #: model_terms:ir.ui.view,arch_db:product_pricelist_supplierinfo.product_pricelist_supplier_item_form_view
@@ -97,5 +97,5 @@ msgstr "Lieferantenpreisliste"
 #. module: product_pricelist_supplierinfo
 #: model:ir.model.fields,field_description:product_pricelist_supplierinfo.field_product_pricelist_item__filter_supplier_id
 msgid "Supplier filter"
-msgstr ""
+msgstr "Lieferantenfilter"
 
