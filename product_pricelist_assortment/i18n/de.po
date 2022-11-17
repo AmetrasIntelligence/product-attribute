@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_pricelist_assortment/i18n/product_pricelist_assortment.pot\n"
 "X-Crowdin-File-ID: 4118\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-10-05 13:10\n"
+"PO-Revision-Date: 2022-11-17 09:01\n"
 
 #. module: product_pricelist_assortment
 #: model_terms:ir.ui.view,arch_db:product_pricelist_assortment.product_pricelist_assortment_item_form_view
@@ -36,12 +36,12 @@ msgstr "Anwenden auf"
 #. module: product_pricelist_assortment
 #: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__assortment_filter_id
 msgid "Assortment"
-msgstr ""
+msgstr "Sortiment"
 
 #. module: product_pricelist_assortment
 #: model_terms:ir.ui.view,arch_db:product_pricelist_assortment.product_pricelist_assortment_item_search
 msgid "Assortment Filter"
-msgstr ""
+msgstr "Sortimentsfilter"
 
 #. module: product_pricelist_assortment
 #: model_terms:ir.ui.view,arch_db:product_pricelist_assortment.product_pricelist_form_view
@@ -366,7 +366,7 @@ msgstr ""
 #. module: product_pricelist_assortment
 #: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__filter_supplier_id
 msgid "Supplier filter"
-msgstr ""
+msgstr "Lieferantenfilter"
 
 #. module: product_pricelist_assortment
 #: model_terms:ir.ui.view,arch_db:product_pricelist_assortment.product_pricelist_assortment_item_form_view
