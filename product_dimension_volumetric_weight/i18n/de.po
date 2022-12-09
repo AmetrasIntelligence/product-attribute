@@ -2,6 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-22 07:52+0000\n"
+"PO-Revision-Date: 2022-12-09 17:42\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -11,39 +13,33 @@ msgstr ""
 "X-Crowdin-Project: ametras-xsolutions\n"
 "X-Crowdin-Project-ID: 530964\n"
 "X-Crowdin-Language: de\n"
-"X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_dimension_volumetric_weight/i18n/product_dimension_volumetric_weight.pot\n"
-"X-Crowdin-File-ID: 4088\n"
+"X-Crowdin-File: /[AmetrasIntelligence.product-attribute] 13.0/product_dimension_volumetric_weight/i18n/product_uom_volumetric_weight.pot\n"
+"X-Crowdin-File-ID: 4090\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-12-09 17:42\n"
 
-#. module: product_dimension_volumetric_weight
-#: model:ir.model,name:product_dimension_volumetric_weight.model_product_product
-msgid "Product"
-msgstr "Produkt"
-
-#. module: product_dimension_volumetric_weight
-#: model:ir.model,name:product_dimension_volumetric_weight.model_product_template
+#. module: product_uom_volumetric_weight
+#: model:ir.model,name:product_uom_volumetric_weight.model_product_template
 msgid "Product Template"
 msgstr "Produktvorlage"
 
-#. module: product_dimension_volumetric_weight
-#: model:ir.model,name:product_dimension_volumetric_weight.model_uom_uom
+#. module: product_uom_volumetric_weight
+#: model:ir.model,name:product_uom_volumetric_weight.model_uom_uom
 msgid "Product Unit of Measure"
 msgstr "Produkt Mengeneinheit"
 
-#. module: product_dimension_volumetric_weight
-#: model:ir.model.fields,help:product_dimension_volumetric_weight.field_uom_uom__volumetric_weight_ratio
+#. module: product_uom_volumetric_weight
+#: model:ir.model.fields,help:product_uom_volumetric_weight.field_uom_uom__weight_volumetric_ratio
 msgid "Used as variable for the volumetric weight calculation using the formula. (Volume * Ratio) = Kg"
 msgstr ""
 
-#. module: product_dimension_volumetric_weight
-#: model:ir.model.fields,field_description:product_dimension_volumetric_weight.field_uom_uom__volumetric_weight_ratio
+#. module: product_uom_volumetric_weight
+#: model:ir.model.fields,field_description:product_uom_volumetric_weight.field_uom_uom__weight_volumetric_ratio
 msgid "Volumetric Weight Ratio (Kg/m3)"
 msgstr ""
 
-#. module: product_dimension_volumetric_weight
-#: model:ir.model.fields,field_description:product_dimension_volumetric_weight.field_product_product__volumetric_weight
-#: model:ir.model.fields,field_description:product_dimension_volumetric_weight.field_product_template__volumetric_weight
+#. module: product_uom_volumetric_weight
+#: model:ir.model.fields,field_description:product_uom_volumetric_weight.field_product_product__weight_volumetric
+#: model:ir.model.fields,field_description:product_uom_volumetric_weight.field_product_template__weight_volumetric
 msgid "Volumetric weight"
 msgstr ""
 
