@@ -5,7 +5,7 @@
 
 <!-- /!\ do not modify above this line -->
 
-# Odoo Product Attribute
+# Odoo Product Attributes
 
 Various addons related to attribute management for products.
 
